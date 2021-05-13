@@ -1,0 +1,37 @@
+.detals {
+  display: flex;
+  margin-top: 40px;
+}
+.images {
+  margin-right: 70px;
+  margin-left: 40px;
+}
+.info {
+  margin-left: 40px;
+}
+.character {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+body {
+  background: rgb(195, 193, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(195, 193, 221, 1) 0%,
+    rgba(211, 240, 6, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.item {
+  margin-bottom: 20px;
+  box-shadow: 5px 7px 7px 0 rgb(0 0 0 / 57%);
+}
